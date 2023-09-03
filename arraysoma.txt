@@ -8,7 +8,7 @@ while (true)
 
     if (x < 0 || x > numeros.Length - 1)
     {
-        Console.WriteLine($"O valor de X deve ser entre 0 e {numeros.Length - 1}");
+        Console.WriteLine($"O número deve ser entre 0 e {numeros.Length - 1}");
         continue;
     }
 
