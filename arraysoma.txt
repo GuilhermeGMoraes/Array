@@ -1,0 +1,26 @@
+
+int[] numeros = { 5, 10, 25, 50, 75, 150, 250, 40 };
+Console.WriteLine("Soma de valores ocultos");
+while (true)
+{   
+    Console.Write("Informe um primeiro nùmero: ");
+    int x = int.Parse(Console.ReadLine());
+
+    if (x < 0 || x > numeros.Length - 1)
+    {
+        Console.WriteLine($"O valor de X deve ser entre 0 e {numeros.Length - 1}");
+        continue;
+    }
+
+    Console.Write("Informe um segundo número: ");
+    int y = int.Parse(Console.ReadLine());
+
+    if (y < 0 || y > numeros.Length - 1)
+    {
+        Console.WriteLine($"O números devem ser entre 0 e {numeros.Length - 1}");
+        continue;
+    }
+
+    int soma = numeros[x] + numeros[y];
+    Console.Write($"Resultado: {soma} \n\n");
+}
