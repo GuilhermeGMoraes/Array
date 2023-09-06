@@ -1,1 +1,1 @@
-Exercício em c# de array somando números 
+Exercício em C# de array somando números 
